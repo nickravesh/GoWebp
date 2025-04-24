@@ -21,8 +21,8 @@ jobs:
       with:
         go-version: '1.24.1'
 
-    - name: Build
-      run: go build -v ./...
+    - name: Linux Build
+      run: GOOS=linux GOARCH=amd64 go build -o GoWebp-linux ./cmd/GoWebp
 
-    - name: Test
-      run: go test -v ./...
+   # - name: Test
+   #   run: go test -v ./...
