@@ -8,7 +8,7 @@ import (
 	"GoWebp/internal/converter"
 	"GoWebp/ui"
 
-	"fyne.io/fyne/v2"
+	"fyne.io/fyne"
 	"fyne.io/fyne/v2/app"
 	// "fyne.io/fyne/v2/storage"
 )
@@ -33,7 +33,7 @@ func main() {
 	w := a.NewWindow("GoWebp")
 
 	// Set custom icon
-	iconBytes, err := os.ReadFile("icon.png")
+	iconBytes, err := os.ReadFile("assets/icon.png")
 	if err == nil {
 		resource := fyne.NewStaticResource("icon.png", iconBytes)
 		w.SetIcon(resource)
