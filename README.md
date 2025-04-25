@@ -8,7 +8,11 @@ A cross-platform batch image-to-WebP converter with a modern GUI, written in Go.
 - Batch convert to WebP with preserved folder structure
 - Adjustable quality and concurrency
 - Progress bar and log pane
-- Cross-platform: Windows & Linux
+- Cross-platform: Linux & Windows & Mac
+
+## Screenshot
+
+<img src="assets/GUI.png" alt="GoWebp GUI" width="420"/>
 
 ## Installation
 
